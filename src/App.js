@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "bulma/css/bulma.min.css";
 import "./App.css"
+import Search from "./components/Search";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <div className="mt-5 columns is-centered">
         <div className="column is-half">
           <div className="title is-2 has-text-centered">Vind nummers van een bepaalde vacature in Carerix</div>
-          <input class="input" type="text" placeholder="Zoek een bedrijf waarvoor je matches wilt vinden."/>
+          <Search />
         </div>
       </div>
     </div>
